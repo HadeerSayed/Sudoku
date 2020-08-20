@@ -1,0 +1,184 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/task.css">
+
+
+
+</head>
+
+<!-- Start Sedoku table -->
+<div class="container">
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <table class="space" border="1">
+
+                <!-- Row 1 -->
+                <tr>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td class=" right-line"><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td class=" right-line"><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"> </td>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                </tr>
+
+                <!-- Row 2 -->
+                <tr>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td class=" right-line"><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td class=" right-line"><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"> </td>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                </tr>
+
+
+                <!-- Row 3 -->
+                <tr class="bottom-line">
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td class=" right-line"><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td class=" right-line"><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"> </td>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                </tr>
+
+
+                <!-- Row 4 -->
+                <tr>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td class=" right-line"><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td class=" right-line"><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"> </td>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                </tr>
+
+
+                <!-- Row 5 -->
+                <tr>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td class=" right-line"><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td class=" right-line"><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"> </td>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                </tr>
+
+
+                <!-- Row 6 -->
+                <tr class="bottom-line">
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td class=" right-line"><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td class=" right-line"><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"> </td>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                </tr>
+
+
+                <!-- Row 7 -->
+                <tr>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td class=" right-line"><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td class=" right-line"><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"> </td>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                </tr>
+
+
+                <!-- Row 8 -->
+                <tr>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td class=" right-line"><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td class=" right-line"><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"> </td>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                </tr>
+
+
+                <!-- Row 9 -->
+                <tr>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td class=" right-line"><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                    <td class=" right-line"><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"> </td>
+                    <td><input type="text" name="cell"></td>
+                    <td><input type="text" name="cell"></td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+</div>
+<!-- End Sedoku table -->
+
+
+<!-- Start Modal -->
+<div class="container">
+    <div class="row ">
+        <div class="col text-center">
+            <!-- Trigger the modal with a button -->
+            <button class="btn btn-danger mt-4" data-toggle="modal" data-target="#myModal" onclick="result()">Get
+                Result</button>
+
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-body"><h4 id="finalResult"></h4> </div>
+                        <div class="modal-footer">
+                            <a href="sudoku.html" class="btn btn-danger">Close</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Modal -->
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/task.js"></script>
+</body>
+
+</html>
